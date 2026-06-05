@@ -1,5 +1,3 @@
-
-
 /* ESTILO GERAL*/
 *{
     margin: 0;
@@ -11,12 +9,15 @@
 body{
     background-color: #fff;
     height: 100vh;
-
 }
 
 .interface{
     max-width: 1180px;
     margin: 0 auto;
+}
+
+.flex{
+    display: flex;
 }
 
 /*ESTILO DO CABEÇALHO*/
@@ -29,7 +30,6 @@ header >.interface{
     align-items: center;
     justify-content:space-between ;
     transition: .5s;
-
 }
 
 header a{
@@ -41,12 +41,10 @@ header a{
 header a:hover{
     color:black ;
     transform: scale(1.06);
-
 }
 
 header nav ul{
     list-style-type: none;
-
 }
 
 header nav ul li{
@@ -62,7 +60,6 @@ header .btn-contato button{
     border: 0;
     border-radius: 30px;
     color: #fff;
-
 }
 
 .logo img{
@@ -72,4 +69,37 @@ header .btn-contato button{
 
 header .btn-contato button:hover{
     box-shadow: 0px 0px 8px rgb(71, 179, 241);
+}
+
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site {
+    padding: 40px 10%;
+}
+
+.txt-topo-site {
+    flex: 1;
+}
+
+.img-topo-site {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px; /* 👈 espaçamento entre texto e imagem */
+}
+
+.img-topo-site img {
+    width: 210px;
+    height: 320px;
+    object-fit: cover;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.txt-topo-site h1{
+    font-size: 38px;
+    line: height 40px; ;
 }
