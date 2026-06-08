@@ -20,6 +20,17 @@ body{
     display: flex;
 }
 
+h2.titulo{
+    color: black;
+    font-size: 28px;
+    text-align: center;
+
+}
+
+h2.titulo span{
+    color: rgb(45, 79, 190);
+}
+
 /*ESTILO DO CABEÇALHO*/
 header{
     padding: 40px 4% ;
@@ -129,3 +140,15 @@ section.topo-do-site {
         top:  30px;
     }
 }
+
+.especialidades{
+    padding: 40px 4%;
+}
+
+.especialidades.especialidades-box{
+    color: black;
+    padding: 40px;
+
+}
+
+.especialidades.especialidades-box
