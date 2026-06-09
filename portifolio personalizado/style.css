@@ -224,9 +224,49 @@ section.sobre .flex{
     margin: 20px;
 }
 
-.sobre.txt-sobre.btn-social button{
+.sobre .txt-sobre .btn-social {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.sobre .txt-sobre .btn-social button {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid rgb(45, 79, 190);
+    background-color: transparent;
+    color: rgb(45, 79, 190);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.sobre .txt-sobre .btn-social button:hover {
+    background-color: rgb(45, 79, 190);
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* ESTILO DO POTIFOLIO */
+
+section.portifolio{
+    padding: 80px 4%;
+    
+}
+
+section.portifolio .flex{
+    gap: 80px;
 
 }
 
+.img-port{
+    width:360px ;
+    height: 460px;
+    background-color:rgb(45, 79, 190) ;
 
-
+}
