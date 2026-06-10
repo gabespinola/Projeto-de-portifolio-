@@ -328,3 +328,41 @@ section.formulario form{
     flex-direction: column;
     gap: 10px;
 }
+
+form input,
+form textarea{
+    width: 100%;
+    background-color: rgba(180, 167, 167, 0.171);
+    outline: 0;
+    border: none; /* remove a borda preta */
+    padding: 15px;
+    border-radius: 20px;
+    color: #000;
+    font-size: 14px;
+}
+
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar{
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+form .btn-enviar input[type=submit]{
+    width:120px ;
+    background-color:rgb(45, 79, 190) ;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-enviar input[type="submit"]:hover{
+    transform: scale(1.05);
+    box-shadow:
+        0 0 8px rgb(71, 179, 241),
+        0 0 16px rgb(71, 179, 241);
+}
