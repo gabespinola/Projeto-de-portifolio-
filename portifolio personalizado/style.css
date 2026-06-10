@@ -312,3 +312,19 @@ section.portifolio .flex{
     opacity: 1;
 
 }
+
+/*ESTILO DO FORMULARIO*/
+
+section.formulario{
+    padding: 80px 4%;
+
+}
+
+section.formulario form{
+    max-width: 550px;
+    margin: 40px auto 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
