@@ -32,7 +32,7 @@ h2.titulo span{
 
 /* ESTILO DO CABEÇALHO */
 header{
-    padding: 40px 4%;
+    padding: 20px 4%;
 }
 
 header > .interface{
@@ -46,6 +46,7 @@ header a{
     color: rgb(45, 79, 190);
     text-decoration: none;
     display: inline-block;
+    
 }
 
 header a:hover{
@@ -59,7 +60,7 @@ header nav ul{
 
 header nav.menu-desktop ul li{
     display: inline-block;
-    padding: 0 40px;
+    padding: 0 20px;
 }
 
 .btn-contato button{
@@ -212,11 +213,12 @@ section.topo-do-site{
     align-items: center;
     margin-left: 80px;
 }
-
 .img-topo-site img{
-    width: 210px;
-    height: 320px;
+    width: 280px;
+    height: 280px;
     object-fit: cover;
+    object-position: center 15%;
+    border-radius: 50%;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
@@ -286,12 +288,12 @@ section.sobre .flex{
 }
 
 .img-sobre img{
-    width: 210px;
-    height: 260px;
+    width: 230px;
+    height: 230px;
     object-fit: cover;
-    border-radius: 10px;
+    object-position: center 15%;
+    border-radius: 50%;
 }
-
 .sobre .txt-sobre{
     color: black;
     max-width: 700px;
@@ -630,7 +632,7 @@ html {
   border-radius: 20px;
   background-color: rgb(45, 79, 190);
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
   cursor: pointer;
   position: relative;
   overflow: hidden;
