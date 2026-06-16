@@ -61,9 +61,9 @@ const projetos = [
   {
     titulo: "Tela de Login — React",
     tag: "React",
-    descricao: "",
+    descricao: "Projeto simples de uma tela de login utilizando React",
     techs: ["React"],
-    imgStyle: "",
+    imgStyle: "background-image: url('imagens/react.png');",
     linkDemo: "#",
     linkGithub: "https://github.com/gabespinola"
   },
