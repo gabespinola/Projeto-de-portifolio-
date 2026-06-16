@@ -38,7 +38,7 @@ const projetos = [
     techs: ["HTML", "CSS", "JavaScript", "LocalStorage"],
     imgStyle: "background-image: url('imagens/tarefas-port_1.png'); background-size: contain; background-repeat: no-repeat;",
     linkDemo: "#",
-    linkGithub: "https://github.com/gabespinola"
+    linkGithub: "https://github.com/gabespinola/To-do-list"
   },
   {
     titulo: "Weather App",
@@ -47,7 +47,7 @@ const projetos = [
     techs: ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
     imgStyle: "background-image: url('imagens/Captura de tela 2026-06-09 095603.png');",
     linkDemo: "#",
-    linkGithub: "https://github.com/gabespinola"
+    linkGithub: "https://github.com/gabespinola/weather-app"
   },
   {
     titulo: "Cadastro de Funcionários",
@@ -56,7 +56,7 @@ const projetos = [
     techs: ["Angular", "TypeScript", "HTML", "CSS"],
     imgStyle: "background-image: url('imagens/Captura de tela 2026-06-15 093935.png');",
     linkDemo: "#",
-    linkGithub: "https://github.com/gabespinola"
+    linkGithub: "https://github.com/gabespinola/Sistema-de-Cadastro-CRUD-"
   },
   {
     titulo: "Tela de Login — React",
@@ -65,7 +65,7 @@ const projetos = [
     techs: ["React"],
     imgStyle: "background-image: url('imagens/react.png');",
     linkDemo: "#",
-    linkGithub: "https://github.com/gabespinola"
+    linkGithub: "https://github.com/gabespinola/pagina-de-login-"
   },
   {
     titulo: "Conversor Java",
@@ -74,7 +74,7 @@ const projetos = [
     techs: ["Java", "Swing", "OOP"],
     imgStyle: "background-image: url('imagens/Captura de tela 2026-06-15 104224.png');",
     linkDemo: "#",
-    linkGithub: "https://github.com/gabespinola"
+    linkGithub: "https://github.com/gabespinola/Conversor-de-Temperatura--java"
   },
   {
     titulo: "Biblioteca Java API",
@@ -83,7 +83,7 @@ const projetos = [
     techs: ["Java", "Spring Boot", "REST API", "MySQL"],
     imgStyle: "background-image: url('imagens/Captura de tela 2026-06-15 150606.png');",
     linkDemo: "#",
-    linkGithub: "https://github.com/gabespinola"
+    linkGithub: "https://github.com/gabespinola/Biblioteca-API-Projeto-em-Java-com-Spring-Boot"
   },
   {
     titulo: "Sistema Financeiro",
@@ -92,7 +92,7 @@ const projetos = [
     techs: ["HTML", "CSS", "JavaScript", "Node.js", "Chart.js"],
     imgStyle: "background-image: url('imagens/financeiro-port.png');",
     linkDemo: "#",
-    linkGithub: "https://github.com/gabespinola"
+    linkGithub: "https://github.com/gabespinola/Sistema-de-controle-financeiro-Fullstack"
   }
 ];
 
