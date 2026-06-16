@@ -63,6 +63,10 @@
     </div>
 </header>
 
+
+
+
+
 <main>
 
     <section id="inicio" class="topo-do-site">
@@ -132,44 +136,135 @@
         </div>
     </section>
 
-    <section id="projetos" class="portifolio">
-        <div class="interface">
-            <h2 class="titulo">PRINCIPAIS <span>PROJETOS.</span></h2>
-            <div class="flex">
+<section id="projetos" class="portifolio">
+  <div class="interface">
+    <h2 class="titulo">PRINCIPAIS <span>PROJETOS.</span></h2>
 
-                <div class="img-port" style="background-image: url('imagens/Captura de tela 2026-06-09 095603.png');">
-                    <div class="overlay">Weather App</div>
-                </div>
+   <div class="timeline">
 
-                <div class="img-port" style="background-image: url('imagens/tarefas-port_1.png'); background-size: contain; background-repeat: no-repeat;">
-                    <div class="overlay">To Do List</div>
-                </div>
-                
-                <div class="img-port" style="background-image: url('imagens/Captura de tela 2026-06-15 093935.png');">
-                    <div class="overlay">Cadastro de Funcionários</div>
-                </div>
+  <!-- 01 -->
+  <div class="tl-item" data-index="0">
+    <div class="tl-dot"></div>
+    <div class="tl-card"
+         style="background-image: url('imagens/tarefas-port_1.png'); background-size: contain; background-repeat: no-repeat;"
+         onclick="abrirModal(0)">
+      <div class="tl-overlay">
+        <span class="tl-tag">Frontend</span>
+        <h3>To Do List</h3>
+        <p>Clique para ver detalhes</p>
+      </div>
+    </div>
+    <div class="tl-year">01</div>
+  </div>
 
-               <div class="img-port" style="background-image: url(imagens/Captura\ de\ tela\ 2026-06-15\ 104224.png);">
-                    <div class="overlay">Conversor-Java</div>
-                </div>
+  <!-- 02 -->
+  <div class="tl-item reverse" data-index="1">
+    <div class="tl-dot"></div>
+    <div class="tl-card"
+         style="background-image: url('imagens/Captura de tela 2026-06-09 095603.png');"
+         onclick="abrirModal(1)">
+      <div class="tl-overlay">
+        <span class="tl-tag">Frontend</span>
+        <h3>Weather App</h3>
+        <p>Clique para ver detalhes</p>
+      </div>
+    </div>
+    <div class="tl-year">02</div>
+  </div>
 
-                <div class="img-port" style="background-image: url(imagens/Captura\ de\ tela\ 2026-06-15\ 150606.png);">
-                    <div class="overlay">Biblioteca-Java-API</div>
-                </div>
+  <!-- 03 -->
+  <div class="tl-item" data-index="2">
+    <div class="tl-dot"></div>
+    <div class="tl-card"
+         style="background-image: url('imagens/Captura de tela 2026-06-15 093935.png');"
+         onclick="abrirModal(2)">
+      <div class="tl-overlay">
+        <span class="tl-tag">Angular</span>
+        <h3>Cadastro de Funcionários</h3>
+        <p>Clique para ver detalhes</p>
+      </div>
+    </div>
+    <div class="tl-year">03</div>
+  </div>
 
-                <div class="img-port" style="background-image: url(imagens/financeiro-port.png);">
-                    <div class="overlay">Sistema Financeiro</div>
-                </div>
+  <!-- 04 — ESPAÇO RESERVADO REACT -->
+  <div class="tl-item reverse" data-index="3">
+    <div class="tl-dot"></div>
+    <div class="tl-card tl-card-placeholder" onclick="abrirModal(3)">
+      <div class="tl-overlay" style="opacity: 1;">
+        <span class="tl-tag">React</span>
+        <h3>Tela de Login</h3>
+        <p>Em breve</p>
+      </div>
+    </div>
+    <div class="tl-year">04</div>
+  </div>
 
+  <!-- 05 -->
+  <div class="tl-item" data-index="4">
+    <div class="tl-dot"></div>
+    <div class="tl-card"
+         style="background-image: url('imagens/Captura de tela 2026-06-15 104224.png');"
+         onclick="abrirModal(4)">
+      <div class="tl-overlay">
+        <span class="tl-tag">Java</span>
+        <h3>Conversor Java</h3>
+        <p>Clique para ver detalhes</p>
+      </div>
+    </div>
+    <div class="tl-year">05</div>
+  </div>
 
+  <!-- 06 -->
+  <div class="tl-item reverse" data-index="5">
+    <div class="tl-dot"></div>
+    <div class="tl-card"
+         style="background-image: url('imagens/Captura de tela 2026-06-15 150606.png');"
+         onclick="abrirModal(5)">
+      <div class="tl-overlay">
+        <span class="tl-tag">Java · API</span>
+        <h3>Biblioteca Java API</h3>
+        <p>Clique para ver detalhes</p>
+      </div>
+    </div>
+    <div class="tl-year">06</div>
+  </div>
 
+  <!-- 07 -->
+  <div class="tl-item" data-index="6">
+    <div class="tl-dot"></div>
+    <div class="tl-card"
+         style="background-image: url('imagens/financeiro-port.png');"
+         onclick="abrirModal(6)">
+      <div class="tl-overlay">
+        <span class="tl-tag">Fullstack</span>
+        <h3>Sistema Financeiro</h3>
+        <p>Clique para ver detalhes</p>
+      </div>
+    </div>
+    <div class="tl-year">07</div>
+  </div>
 
+</div>
+  </div>
+</section>
 
-
-            </div>
-        </div>
-    </section>
-
+<!-- ── MODAL — cole antes de </main> ─── -->
+<div class="modal-overlay" id="modalOverlay" onclick="fecharModal()">
+  <div class="modal-box" onclick="event.stopPropagation()">
+    <button class="modal-close" onclick="fecharModal()">
+      <i class="bi bi-x-lg"></i>
+    </button>
+    <div class="modal-img" id="modalImg"></div>
+    <div class="modal-body">
+      <span class="modal-tag" id="modalTag"></span>
+      <h3 id="modalTitulo"></h3>
+      <p id="modalDesc"></p>
+      <div class="modal-techs" id="modalTechs"></div>
+      <div class="modal-links" id="modalLinks"></div>
+    </div>
+  </div>
+</div>
     <section id="contato" class="formulario">
         <div class="interface">
             <h2 class="titulo">FALE <span>COMIGO.</span></h2>
@@ -182,6 +277,9 @@
             </form>
         </div>
     </section>
+
+    
+
 
 </main>
 
